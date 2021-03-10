@@ -1,0 +1,35 @@
+button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  max-width: 20rem;
+  width: 100%;
+
+  border: 0;
+  background: var(--background-button);
+  padding: 1.1875rem 2rem;
+  border-radius: 0.25rem;
+
+  font-size: 1.125rem;
+  color: var(--white);
+
+  &:hover {
+    background: var(--background-button2);
+  }
+
+  transition: background 200ms;
+
+  & + button {
+    margin-top: 1rem;
+  }
+
+  &:first-child {
+    margin-top: 0;
+  }
+
+  &.selected {
+    background: var(--background-button2);
+    color: var(--yellow);
+  }
+}
