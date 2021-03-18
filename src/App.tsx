@@ -65,6 +65,7 @@ export function App() {
         <div className="buttons-container">
           {genres.map(genre => (
             <Button
+              key={genre.id}
               id={String(genre.id)}
               title={genre.title}
               iconName={genre.name}
@@ -84,7 +85,13 @@ export function App() {
         <main>
           <div className="movies-list">
             {movies.map(movie => (
-              <MovieCard title={movie.Title} poster={movie.Poster} runtime={movie.Runtime} rating={movie.Ratings[0].Value} />
+              <MovieCard
+                key={movie.Title}
+                title={movie.Title}
+                poster={movie.Poster}
+                runtime={movie.Runtime}
+                rating={movie.Ratings[0].Value}
+              />
             ))}
           </div>
         </main>
