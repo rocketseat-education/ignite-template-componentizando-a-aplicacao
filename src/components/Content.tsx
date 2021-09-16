@@ -32,7 +32,6 @@ export function Content(props:ContentProps) {
   return (
     <div className="container">
         <header>
-          {JSON.stringify(props.selectedGenre)}
           <span className="category">Categoria:<span> {props.selectedGenre.title}</span></span>
         </header>
 
