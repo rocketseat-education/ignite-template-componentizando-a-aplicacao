@@ -10,13 +10,15 @@
     "test": "jest --watchAll"
   },
   "dependencies": {
+    "@types/react-virtualized": "^9.21.13",
     "axios": "^0.21.1",
     "jest": "^27.2.0",
     "json-server": "^0.16.3",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-feather": "^2.0.9",
-    "react-icons": "^4.2.0"
+    "react-icons": "^4.2.0",
+    "react-virtualized": "^9.22.3"
   },
   "devDependencies": {
     "@babel/cli": "^7.12.10",
