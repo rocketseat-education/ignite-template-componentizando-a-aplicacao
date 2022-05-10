@@ -21,35 +21,35 @@
     .movie-info {
       max-width: 12.31rem;
       width: 100%;
-      
+
       display: flex;
       flex-direction: column;
-  
+
       > span {
         font-weight: 600;
         font-size: 1rem;
         color: #fbfbfb;
-  
+
         margin-top: auto;
         margin-bottom: 0.5rem;
       }
-  
+
       .meta {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-  
+
         margin-bottom: 1rem;
-  
+
         div {
           display: flex;
           align-items: center;
-  
+
           font-weight: 600;
           color: var(--gray);
-  
+
           svg {
-            color: #FAE800;
+            color: #ff6893;
             margin-right: 0.5rem;
           }
         }

@@ -1,11 +1,11 @@
 :root {
-  --background: #1F2229;
-  --background2: #2E303C;
-  --background-button: #373945;
-  --background-button2: #4B4D59;
-  --yellow: #FAE800;
-  --gray: #BEC2C6;
-  --white: #FBFBFB;
+  --background: #121622;
+  --background2: #181d2e;
+  --background-button: #1d243a;
+  --background-button2: #222b47;
+  --yellow: #ff0c4f;
+  --gray: #afb2be;
+  --white: #d2d4db;
 }
 
 * {
@@ -16,11 +16,12 @@
 
 body {
   font: 16px "Poppins", Arial, sans-serif;
-  color: #FBFBFB;
+  color: #fbfbfb;
   background: var(--background);
 }
 
-input, textarea {
+input,
+textarea {
   font-family: "Poppins";
 }
 
